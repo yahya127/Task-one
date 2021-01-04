@@ -76,29 +76,3 @@ var Myform=document.querySelector('#addUser');
             e.target.elements.office.value);
 		show();
 	})
-// addUserForm.addEventListener('submit', function(e){
-// 	e.preventDefault()
-//     let data = this.elements  //this = e.target = addUserForm
-//     let user ={}
-//     userKeys.forEach( key => { user[key] = data[key].value })
-//     users.push(user)
-// 	addUserForm.reset()
-	
-//     console.log(users)
-// })
-// usersTable=document.querySelectorAll("#table")
-// let addElement=function(eleType,eleText,parent){
-// 	ele=document.createElement(elementType).ele.textContent=eleText
-// 	parent.appendChild(ele)
-// 	let show=function(){
-// 		users.forEach((user,i)=>{
-// 			tr=document.createElement("tr")
-// 			addElement("td",i+1,tr)
-// 			userKeys.forEach(key=>{
-// 				addElement("td",user[key],tr)
-// 			})
-// 			usersTable.appendChild(tr)
-// 		})
-// 	}
-//     showUsers()
-// }
